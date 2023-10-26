@@ -39,6 +39,7 @@
                     android:padding="10dp"
                     android:layout_gravity="center_vertical">
                     <TextView
+                        android:id="@+id/txtview1"
                         android:layout_width="wrap_content"
                         android:maxWidth="190dp"
                         android:layout_height="wrap_content"
@@ -47,12 +48,14 @@
                         android:textSize="18sp"
                        />
                     <TextView
+                        android:id="@+id/txtview2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="+91 84011 38433"
                         android:textSize="16sp"
                        />
                     <TextView
+                        android:id="@+id/txtview3"
                         android:layout_width="wrap_content"
                         android:maxWidth="190dp"
                         android:layout_height="wrap_content"
@@ -60,6 +63,7 @@
                         android:textSize="16sp"
                        />
                     <TextView
+                        android:id="@+id/txtview4"
                         android:layout_width="wrap_content"
                         android:maxWidth="190dp"
                         android:layout_height="wrap_content"
