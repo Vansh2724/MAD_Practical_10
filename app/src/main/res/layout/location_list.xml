@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_locationlist"
     xmlns:tools="http://schemas.android.com/tools">
     <ScrollView
         android:layout_width="match_parent"
@@ -73,7 +74,8 @@
 
                 </LinearLayout>
 
-                <ImageView
+                <ImageButton
+                    android:id="@+id/btn_map"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_margin="1dp"
